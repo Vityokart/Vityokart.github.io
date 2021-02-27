@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(max-width:992px){
     .header_logo{
-        margin-right: 20px;
+        padding-right: 60px;
     }
     .container{
         max-width: 800px;
@@ -573,6 +573,9 @@ h1, h2, h3, h4, h5, h6 {
     .numbers_item{
         margin-bottom: 30px;
     }
+    .servants_card{
+        margin-right: 0;
+    }
     .servants_list{
         flex-direction: column;
         align-items: center;
@@ -584,7 +587,6 @@ h1, h2, h3, h4, h5, h6 {
     .form_first_wrapper{
         max-width: 300px;
         box-sizing: border-box;
-        padding-right:10px ;
     }
     .recruietrs_wrap{
         right: 0;
