@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav_list{
     display: flex;
+    align-items: center;
     list-style: none;
 }
 .nav_item{
@@ -150,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro_lang{
-    padding-top: 40px;
+    margin-top: -20px;
 }
 .intro_title{
     font-size: 48px;
@@ -472,6 +473,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media(max-width:992px){
+    .header_logo{
+        margin-right: 20px;
+    }
     .container{
         max-width: 800px;
     }
@@ -502,13 +506,14 @@ h1, h2, h3, h4, h5, h6 {
     }
     .nav_list{
         flex-direction: column;
+        align-items: flex-start;
     }
     .nav_toggle{
         display: block;
     }
     .intro_lang{
         display: flex;
-        padding-right: 35px;
+        flex-direction: column;
     }
     .container_about{
         flex-direction: column-reverse;
