@@ -395,8 +395,9 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 .form_name{
-    width: 288px;
+    width: 100%;
     height: 40px;
+    padding: 0 10px;
     position: relative;
 }
 .form_name{
@@ -408,7 +409,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 10px;
 }
 .form_name_input{
-    padding: 13px 109px 13px 21px;
+    width: 100%;
+    height: 100%;
     border: none;
     border-radius: 10px;
     
@@ -576,10 +578,8 @@ h1, h2, h3, h4, h5, h6 {
     }
     .form_first_wrapper{
         max-width: 300px;
-    }
-    .form_name_input{
-        padding-right: 80px;
-        margin-left: 10px;
+        box-sizing: border-box;
+        padding-right:10px ;
     }
     .recruietrs_wrap{
         right: 0;
