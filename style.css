@@ -437,6 +437,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav_list-footer{
     flex-direction: column;
+    width: 200px;
 }
 .nav_list-footer .nav_item{
     margin-right: 0;
@@ -475,6 +476,9 @@ h1, h2, h3, h4, h5, h6 {
 @media(max-width:992px){
     .header_logo{
         padding-right: 60px;
+    }
+    .footer_logo{
+        padding-right: 0;
     }
     .container{
         max-width: 800px;
